@@ -19,7 +19,7 @@ app.get('/', (req, res, next) => {
     res.send("HOLI GRAPHQL")
 })
 
-app.listen(3000, () => {
+app.listen(process.env.PORT, () => {
     console.log("Corriendo en el puerto 3000");
 })
 
